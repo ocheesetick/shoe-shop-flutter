@@ -30,6 +30,13 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
+      appBar: AppBar(
+        leading: IconButton(
+            icon: const Icon(Icons.menu),
+            onPressed: (){},
+        ),
+        backgroundColor: Colors.transparent,
+      ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: CustomBottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
