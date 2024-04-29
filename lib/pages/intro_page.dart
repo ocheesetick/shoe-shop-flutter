@@ -27,7 +27,7 @@ class IntroPage extends StatelessWidget {
 
               // Title
               const Text(
-                  "Just Do It",
+                  "Just Do It Yesssss",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20
