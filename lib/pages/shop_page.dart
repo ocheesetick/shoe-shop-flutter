@@ -60,7 +60,7 @@ class _ShopPageState extends State<ShopPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                      'Hot Picks🔥',
+                      'Hot Picksssss🔥',
                       style: TextStyle(
                           fontSize: 25,
                           fontWeight: FontWeight.bold
